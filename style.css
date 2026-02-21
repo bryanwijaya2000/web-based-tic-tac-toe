@@ -1,0 +1,87 @@
+#gameArea {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: saddlebrown;
+}
+
+#gameBoard {
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 40%;
+    top: 30%;
+    left: 40%;
+}
+
+#board {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#board tr td {
+    position: relative;
+    width: 33%;
+    height: 33%;
+    background-color: white;
+}
+
+.cell {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    font-size: 350%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    border-color: transparent;
+}
+
+#pre-game {
+    position: relative;
+    float: right;
+    width: 13%;
+    height: 40%;
+    top: 30%;
+    left: -25%;
+}
+
+#choosePieceLbl {
+    position: relative;
+    width: 100%;
+    height: 1%;
+    font-size: 100%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#choosePieceBtn {
+    position: relative;
+    width: 55%;
+    height: 40%;
+    top: 8%;
+    left: 20%;
+    font-size: 450%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#startBtn {
+    position: relative;
+    width: 55%;
+    height: 40%;
+    top: 20%;
+    left: 20%;
+    font-size: 140%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
